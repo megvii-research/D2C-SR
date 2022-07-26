@@ -7,11 +7,12 @@ Welcome to try megengine to train your model，and our PyTorch version will also
 ## Abstract
 In this paper, we present D2C-SR, a novel framework for the task of real-world image super-resolution. As an ill-posed problem, the key challenge in super-resolution related tasks is there can be multiple predictions for a given low-resolution input. Most classical deep learning based approaches ignored the fundamental fact and lack explicit modeling of the underlying high-frequency distribution which leads to blurred results. Recently, some methods of GAN-based or learning superresolution space can generate simulated textures but do not promise the accuracy of the textures which have low quantitative performance. Rethinking both, we learn the distribution of underlying high-frequency details in a discrete form and propose a two-stage pipeline: divergence stage to convergence stage. At divergence stage, we propose a tree-based structure deep network as our divergence backbone. Divergence loss is proposed to encourage the generated results from the tree-based network to diverge into possible high-frequency representations, which is our way of discretely modeling the underlying high-frequency distribution. At convergence stage, we assign spatial weights to fuse these divergent predictions to obtain the final output with more accurate details. Our approach provides a convenient end-to-end manner to inference. We conduct evaluations on several real-world benchmarks, including a new proposed D2CRealSR dataset with x8 scaling factor. Our experiments demonstrate that D2C-SR achieves better accuracy and visual improvements against state-of-the-art methods, with a significantly less parameters number and our D2C structure can also be applied as a generalized structure to some other methods to obtain improvement.
 
+## Overview
+![D2C-SR](https://user-images.githubusercontent.com/1344482/180904129-51f2cff1-9137-426c-8f44-ee822a963063.JPG)
 
-
-
-
-
+## Pipeline
+![pipeline](https://user-images.githubusercontent.com/1344482/180904384-fefbaf33-feac-45ad-927e-da87e5d046f1.JPG)
+Two stages in D2C architecture: (a) Divergence stage, (b) Convergence stage. Divergence network with tree-based structure outputs multi-predictions with different high-frequency recovery. Convergence network obtains more accurate result by weighted combining divergence results. (c) Divergence loss.
 
 
 ### Dependencies
@@ -77,6 +78,12 @@ python test.py --checkpoint checkpoint_path --val_list_path your_val_list_path
 ```
 
 MegEngine checkpoint can be download from [Google Drive](https://drive.google.com/file/d/1itbkFWQ8ZP9F9XcDYpac16J6vspJ2wiV/view?usp=sharing).
+
+### Results
+![Results](https://user-images.githubusercontent.com/1344482/180904932-adaf7578-28ef-4564-84c3-23bc3104edf6.JPG)
+
+
+
 
 ### Citations
 

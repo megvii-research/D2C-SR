@@ -80,7 +80,8 @@ python test.py --checkpoint checkpoint_path --val_list_path your_val_list_path
 MegEngine checkpoint can be download from [Google Drive](https://drive.google.com/file/d/1itbkFWQ8ZP9F9XcDYpac16J6vspJ2wiV/view?usp=sharing).
 
 ### Results
-![Results](https://user-images.githubusercontent.com/1344482/180905185-4f067517-1e2a-44e0-9284-c8541ad6407b.JPG)
+![Results](https://user-images.githubusercontent.com/1344482/180905669-5a37b1ca-6b54-459a-9f05-7924524011a5.JPG)
+
 
 
 ### Citations

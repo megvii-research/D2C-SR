@@ -1,4 +1,4 @@
-## [ECCV 2022] D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution (paper)
+## [ECCV 2022] D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution ([paper](https://arxiv.org/abs/2103.14373))
 
 ![D2C-SR](https://user-images.githubusercontent.com/1344482/180904129-51f2cff1-9137-426c-8f44-ee822a963063.JPG)
 

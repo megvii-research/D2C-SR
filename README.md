@@ -8,8 +8,6 @@
 
 
 
-![D2C-SR](https://user-images.githubusercontent.com/1344482/180904129-51f2cff1-9137-426c-8f44-ee822a963063.JPG)
-
 #### This is the official MegEngine implementation of our ECCV2022 paper "[***D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution***](https://arxiv.org/abs/2103.14373)".
 
 Welcome to try megengine to train your model，and our PyTorch version will also be coming soon at [D2C-SR-PyTorch](https://github.com/Well-Lee-pro/D2C-SR).

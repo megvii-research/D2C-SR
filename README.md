@@ -1,6 +1,6 @@
 ## [ECCV 2022] D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution
 
-<h4 align="center">Youwei Li<sup>1</sup>, Haibin Huang$^2$, Lanpeng Jia$^1$, Haoqiang Fan$^1$, Shuaicheng Liu$^{3,1}$</center>
+<h4 align="center">Youwei Li<sup>1</sup>, Haibin Huang<sup>2</sup>, Lanpeng Jia<sup>1</sup>, Haoqiang Fan<sup>1</sup>, Shuaicheng Liu<sup>3,1</sup></center>
 <h4 align="center">1. Megvii Research, 2. Kuaishou Technology</center>
 <h4 align="center">3. University of Electronic Science and Technology of China</center><br><br>
 

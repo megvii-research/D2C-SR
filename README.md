@@ -86,7 +86,16 @@ MegEngine checkpoint can be download from [Google Drive](https://drive.google.co
 
 ### Citations
 
-To be updating...
+```
+@inproceedings{li2022d2c,
+  title={D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution},
+  author={Li, Youwei and Huang, Haibin and Jia, Lanpeng and Fan, Haoqiang and Liu, Shuaicheng},
+  booktitle={European Conference on Computer Vision},
+  pages={379--394},
+  year={2022},
+  organization={Springer}
+}
+```
 
 ### Contact
 
